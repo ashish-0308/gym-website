@@ -1,0 +1,93 @@
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Noto Sans', sans-serif;
+                background: url(./training-828732_1280.jpg);
+                color: white;
+            }
+
+            
+            .left{
+                margin: 20px auto;
+                font-size: large;
+                left: 40px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .left img{ 
+                margin: auto;
+                filter: invert(100%);
+                width: 70px;
+                height: 70px;
+                padding-left: 26px;
+                padding-bottom: 14px;
+            }
+
+            .mid{
+                
+                width: 700px;
+                left: 300px;
+                top: 10px;
+                position: absolute;
+                display: block;
+            }
+
+            .right{
+                margin: 20px auto;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                display: inline-block;
+                
+
+            }
+
+            .btn{
+                font-size:small;
+                color: black;
+                border: none;
+                border-radius: 5px;
+                margin: 0px 9px;
+                padding: 4px 14px;
+                text-decoration: solid;
+                font-family: 'Noto Sans', sans-serif;
+            }
+
+            .btn:hover{
+                color: rgb(173, 44, 44);
+                background-color: #cacaca;
+            }
+            
+            
+            .navbar{
+                display: inline-block;
+            }
+
+            .navbar li{
+                display: inline-block;
+                margin: 10px;
+            }
+
+            .navbar li a{
+                padding: 34px 15px;
+                color: white;
+                text-decoration: none;
+
+            }
+
+            .navbar li a:hover, .navbar li a.active{
+                color: rgb(189, 189, 189);
+                text-decoration: underline;
+            }
+
+            #container{
+                border: 1px solid white;
+                margin: 2px 2px;
+                padding: 2px 2px;
+                width: 33%;
+                display: block;
+            }
+
+        </style>
