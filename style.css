@@ -1,5 +1,4 @@
-        <style>
-            body{
+ body{
                 margin: 0px;
                 padding: 0px;
                 font-family: 'Noto Sans', sans-serif;
@@ -7,28 +6,31 @@
                 color: white;
             }
 
-            
             .left{
-                margin: 20px auto;
+                margin: 20px 50px;
                 font-size: large;
-                left: 40px;
-                position: absolute;
                 display: inline-block;
+                transition: all ease 1s;
+            }
+
+            .left:hover{
+                scale: 1.1;
+                color: rgb(201, 129, 129);
             }
 
             .left img{ 
                 margin: auto;
                 filter: invert(100%);
-                width: 70px;
-                height: 70px;
-                padding-left: 26px;
+                width: 50px;
+                height: 50px;
                 padding-bottom: 14px;
+                padding-left: 26px;
             }
 
             .mid{
                 
                 width: 700px;
-                left: 300px;
+                left: 270px;
                 top: 10px;
                 position: absolute;
                 display: block;
@@ -53,6 +55,7 @@
                 padding: 4px 14px;
                 text-decoration: solid;
                 font-family: 'Noto Sans', sans-serif;
+                cursor: pointer;
             }
 
             .btn:hover{
@@ -82,12 +85,56 @@
                 text-decoration: underline;
             }
 
-            #container{
+            .container{
+                text-align: center;
                 border: 1px solid white;
-                margin: 2px 2px;
-                padding: 2px 2px;
-                width: 33%;
+                margin: 70px 250px;
+                padding: 25px;
+                width: 400px;
+                height: 320px;
                 display: block;
+                border-radius: 10px;
             }
 
-        </style>
+            .formgroup{
+                text-align: center;
+                margin: 2px 2px;
+                padding: 5px 3px;
+
+            }
+
+            .formgroup input{
+                font-size:13px;
+                width: 250px;
+                text-align: center;
+                margin: 3px;
+            }
+
+            .btn1{
+                width: 350px;
+                font-size:small;
+                color: black;
+                border: none;
+                border-radius: 10px;
+                margin: 15px 9px;
+                padding: 4px 14px;
+                text-decoration: solid;
+                font-family: 'Noto Sans', sans-serif;
+                cursor: pointer;
+                font-size: medium;
+                
+            }
+
+            .btn1:hover{
+                color: rgb(173, 44, 44);
+                background-color: #cacaca;
+            }
+
+            #banner{
+                transition: all ease 1s;
+            }
+
+            #banner:hover{
+                scale: 1.1;
+                color: rgb(212, 149, 149);
+            }
